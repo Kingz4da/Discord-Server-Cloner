@@ -45,18 +45,18 @@ client.on("ready", async () => {
   menutext(client);
   choiceinit(client);
   const r = new Discord.RichPresence()
-    .setApplicationId('1146949248617828455')
+    .setApplicationId('1137916019810254890')
     .setType('PLAYING')
-    .setURL('https://discord.gg/infinite-community-1014921352500756500')
-    .setName('☣ Infinite Community')
+    .setURL('https://discord.gg/s6mHzn6VYT')
+    .setName('☣ King Community')
     .setState('🛠 Running...')
     .setDetails('The best server about selfbots and bots')
-    .setAssetsLargeImage('https://cdn.discordapp.com/icons/1014921352500756500/d2ed4735e5e40808124696fe97bc4c9d.png?size=2048')
-    .setAssetsLargeText('Infinite Community')
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/692443311318892585/1187269861433430046/Untitled_Project_32.jpg?ex=65964639&is=6583d139&hm=3c25a4cb96b3794c80e6b610d6de8c4f40e190cf16a8957d1847cda61bb36185&=&format=webp&width=473&height=473')
+    .setAssetsLargeImage('banner')
+    .setAssetsLargeText('King Community')
+    .setAssetsSmallImage('skull4')
     .setAssetsSmallText('Join')
     .setStartTimestamp(new Date(1677642874 * 1000))
-    .addButton(t('join'), 'https://discord.gg/infinite-community-1014921352500756500');
+    .addButton(t('join'), 'https://discord.gg/s6mHzn6VYT');
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" });
 });
