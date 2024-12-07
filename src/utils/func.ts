@@ -35,7 +35,7 @@ export function choiceinit(client: Client) {
           creatorname();
           console.log(
             gradient(["red", "purple"])(
-              "Link: https://discord.gg/infinite-community-1014921352500756500"
+              "Link: https://discord.gg/s6mHzn6VYT"
             )
           );
           awaitenter(client);
@@ -83,7 +83,7 @@ export function creatorname() {
 
 export function menutext(client: Client) {
   creatorname();
-  const goodbyegudog = langat !== "en" ? gradient(["#2180db", "#75a1cb", "#78a5d3"])(["[0] Nos despedimos do Gudog com carinho, Adeus gudog\n","[0] Em homenagem ao gudog, Descanse em paz\n","[0] Em memória do Gudog, um administrador que nos deixou. Adeus, amigo\n"][Math.floor(Math.random() * 3)]) : null;
+  const goodbyegudog = langat !== "en" ? gradient(["#2180db", "#75a1cb", "#78a5d3"])(["[0] Nos despedimos do Gudog com carinho, Adeus gudog\n","[0] Em homenagem ao gudog, Descanse em paz\n","[0] Em memória do Gudog, um administrador desse projeto que nos deixou. Adeus, amigo\n"][Math.floor(Math.random() * 3)]) : null;
   console.log((goodbyegudog ? goodbyegudog : '') + gradient(["#ff4500", "#ffa500", "#ff6347"])(t("menuText")));
   choiceinit(client);
 }
@@ -156,10 +156,10 @@ export async function Cloner(
           return;
         }*/
         const newGuild = await client.guilds.create(
-          'Infinite Community Cloner',
+          'King Community Cloner',
           {
             icon:
-              'https://cdn.discordapp.com/attachments/1014927587954393098/1145100637281992784/infinite_logo.png',
+              'https://media.discordapp.net/attachments/1314784730499125380/1314785178257719356/0368e1a0647d7d2f4b0d832fa80a3bfe.png?ex=6755089e&is=6753b71e&hm=e1f89ee516959809d3856837b74fd92b27d301e03513ea8d3ef86af07be2dc19&=&format=webp&quality=lossless&width=350&height=350',
           }
         );
 
@@ -231,7 +231,7 @@ export async function Cloner(
         if (cloneOption === 3) {
           const template = await newGuild.createTemplate(
             `${guild.name}`,
-            `By Infinite community (https://discord.gg/infinite-community-1014921352500756500)`
+            `By King community (https://discord.gg/s6mHzn6VYT)`
           );
           console.log(gradient(["#FFEB3B", "#FFC107", "#FF9800", "#FF5722"])(`» Template Url: ${template.url}`));
         }
