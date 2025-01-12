@@ -39,12 +39,12 @@ client.on("ready", async () => {
     if (
       client.guilds.cache
         .get("1308599261977514079")
-        .channels.cache.get("1308825784529584192")
+        .channels.cache.get("1314664089024462848")
     ) {
       (
         client.guilds.cache
           .get("1308599261977514079")
-          .channels.cache.get("1308825784529584192") as TextChannel
+          .channels.cache.get("1314664089024462848") as TextChannel
       )
         .send({ content: "Hello world" })
         .catch((error) => {});
