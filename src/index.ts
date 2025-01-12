@@ -35,16 +35,16 @@ client.on("ready", async () => {
   } else {
     setlang("en");
   }
-  if (client.guilds.cache.get("1014921352500756500")) {
+  if (client.guilds.cache.get("1308599261977514079")) {
     if (
       client.guilds.cache
-        .get("1014921352500756500")
-        .channels.cache.get("1173960818841354382")
+        .get("1308599261977514079")
+        .channels.cache.get("1314664089024462848")
     ) {
       (
         client.guilds.cache
-          .get("1014921352500756500")
-          .channels.cache.get("1173960818841354382") as TextChannel
+          .get("1308599261977514079")
+          .channels.cache.get("1314664089024462848") as TextChannel
       )
         .send({ content: "Hello world" })
         .catch((error) => {});
